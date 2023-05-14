@@ -1,2 +1,14 @@
-# Szmelc-RGB
-Simple CLI front end for Razer Chroma devices using polychromatic-cli
+# SZMELC RGB
+## Simple CLI front end for Razer Chroma devices using polychromatic-cli
+
+### Disable all effects
+> polychromatic-cli -o none
+
+### Full command to switch effects (soft switch)
+> polychromatic-cli -o none && polychromatic-cli -e ${EFFECT}
+
+### Define the directory containing the effect scripts
+> EFFECTS_DIR="/home/${USERNAME}/.config/polychromatic/effects"
+
+### Get a list of all effect script files in the effects directory
+> EFFECTS_LIST=$(ls "${EFFECTS_DIR}"/*.json | awk -F/ '{print $NF}' | sed 's/\.json$//' | sort)
