@@ -2,9 +2,10 @@
 
 # Define the menu options
 OPTIONS=(1 "Play Effects"
-         2 "Download More"
+         2 "Community Effects"
          3 "Backup Local"
-         4 "Docs - [README.md]"
+         4 "Events API"
+         5 "Docs - [README.md]"
          E "Exit")
 
 # Define the menu title
@@ -32,9 +33,13 @@ case "$CHOICE" in
         bash backup.sh
         ;;
     4) # Run Script 4
+        bash events/main.sh
+        ;;
+    5) # print Readme
         cat README.md
         ;;
     E) # Exit
         clear && echo "" && echo " Thanks for choosing Szmelc <3 " && echo "" && exit
         ;;
 esac
+
