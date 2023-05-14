@@ -38,4 +38,3 @@ case "$CHOICE" in
         clear && echo "" && echo " Thanks for choosing Szmelc <3 " && echo "" && exit
         ;;
 esac
-
