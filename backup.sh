@@ -16,3 +16,7 @@ tar -czf "${archive_dir}/${archive_name}" -C "${backup_dir}" .
 clear && echo ""
 echo " Backup of ${backup_dir} completed successfully."
 echo " Archive file saved to ${archive_dir}/${archive_name}." && echo ""
+
+sleep 2
+bash exec.sh
+
