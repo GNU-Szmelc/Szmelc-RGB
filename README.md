@@ -1,6 +1,10 @@
 # SZMELC RGB
 ## Simple CLI front end for Razer Chroma devices using polychromatic-cli
 
+<img src="https://i.imgur.com/xj1ePPN.png">
+<img src="https://i.imgur.com/jeJxIrB.png">
+<img src="https://i.imgur.com/8ZefEmw.png">
+
 #### === [CONTENTS] ===
 > 1. Dependencies 
 > 2. Installation 
